@@ -9,9 +9,6 @@ Ubuntu:
   apt-get install build-essential cmake libpng-dev
 ```
 
-
-Il est également recommandé d'utiliser un IDE, tel que QtCreator, pour programmer la solution.
-
 ### Compilation manuelle:
 
 #### Methode 1
@@ -46,7 +43,7 @@ source ./build/env.sh
 ieffect --input data/ --output results/
 ```
 
-## Comment faire la remise
+## Comment faire le fichier dist
 
 Dans la racine du projet:
 
@@ -54,12 +51,3 @@ Dans la racine du projet:
 cmake -S . -B build
 cd build
 make dist
-```
-
-Il faut choisir le fichier compresser en `tar.gz`
-
-## Date echeance
-
-~mercredi 12 avril 2023, 23:59~
-
-samedi 15 avril 2023, 23:59 
